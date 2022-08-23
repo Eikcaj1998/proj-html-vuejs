@@ -5,7 +5,7 @@
         <div class="text col-6">
             <h1>Devotion that never <span>ends</span></h1>
             <p class="py-3">Nesque porro quisquantum est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi.</p>
-            <button type="button" class="btn p-3 secondary">READ MORE</button>
+            <button type="button" class="btn">READ MORE</button>
         </div>
         <div class="col-6">
         <JumbotronImgs/>
@@ -24,7 +24,27 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import '../assets/style.scss';
     .row{
         padding-top: 40px;
+    }
+    .btn{
+        font-size: 0.8rem;
+        width: 159px;
+        padding: 20px;
+        border-radius: 0px;
+        border: solid 3px $secondary;
+        &:hover {
+            background-color: $secondary;
+            border-color: $secondary;
+            color: white;
+        }
+    }
+    span{
+        font-family: 'Playfair Display';
+        font-style: italic;
+        font-weight: bold;
+        font-size: 48px;
+
     }
 </style>
