@@ -5,7 +5,7 @@
         <div class="text col-6">
             <h1>Devotion that never <span>ends</span></h1>
             <p class="py-3">Nesque porro quisquantum est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi.</p>
-            <button type="button" class="btn btn-outline-dark">READ MORE</button>
+            <button type="button" class="btn p-3 secondary">READ MORE</button>
         </div>
         <div class="col-6">
         <JumbotronImgs/>
