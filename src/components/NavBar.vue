@@ -1,5 +1,7 @@
 <template>
     <div>
+        <nav class="navbar py2 px-3">
+        <div class="container-fluid">
         <div class="d-flex justify-content-between align-items-center">
         <a href="#">
         <img src="../assets/img/logo-sidearea-1.png" alt="logo"></a>
@@ -12,6 +14,8 @@
             <img src="../assets/svg/svg-1.svg" alt="">
             </li>
             </ul>
+        </div>
+        </nav>
     </div>
 </template>
 

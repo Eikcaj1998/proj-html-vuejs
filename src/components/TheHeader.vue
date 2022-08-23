@@ -1,11 +1,8 @@
 <template>
-
-    <nav class="navbar py2">
-        <div class="container-fluid">
-            <NavBar/>
-            <JumboTron/>
-        </div>
-    </nav>
+    <div>
+        <NavBar/>
+        <JumboTron/>
+    </div>
 </template>
 <script>
 import NavBar from "./NavBar.vue";
@@ -15,7 +12,7 @@ export default {
     name:"TheHeader",
     components: {
     NavBar,
-    JumboTron
+    JumboTron,
 }
 }
 </script>
