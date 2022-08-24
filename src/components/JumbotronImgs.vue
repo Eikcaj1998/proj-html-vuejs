@@ -23,9 +23,7 @@
     }
 
     .position-relative {
-        min-height: 297px;
         max-height: 300px;
-        min-width: 510px;
         max-width: 520px;
     }
     .woman {
