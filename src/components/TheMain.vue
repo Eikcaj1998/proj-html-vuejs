@@ -13,6 +13,11 @@ import ContactMessage from "./ContactMessage.vue";
 import EmilyFields from "./EmilyFields.vue";
 export default {
     name:"TheMain",
-    components: { GridImg, WorkingProcess, ContactMessage, EmilyFields }
+    components: { GridImg, WorkingProcess, ContactMessage, EmilyFields },
+     methods: { 
+           scrollToTop() {
+                window.scrollTo(0,0);
+           }
+        }
 }
 </script>
