@@ -62,6 +62,7 @@
                 opacity: 1;
                 h6{
                     font-family: 'Playfair Display';
+                    font-style: italic;
                 }
             }
         }
