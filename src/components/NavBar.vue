@@ -56,6 +56,7 @@ export default {
         height: 40px;
         background-color: $primary;
         box-shadow: 3px 3px 3px #dedede;
+        cursor: pointer;
         .arrow{
             width: 20px;
             height: 20px;

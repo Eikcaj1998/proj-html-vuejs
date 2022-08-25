@@ -4,6 +4,7 @@
             <h2 class="text-center py-5">Working <span>process</span></h2>
                 <div class="w-75 m-auto position-relative">
                     <div class="row row-cols-4">
+                    <img class="line" src="../assets/svg/svg-3.svg" alt="">
                         <ListCard 
                         v-for="(card) in cards" 
                             :key="card.id"
@@ -35,21 +36,21 @@ export default {
             id:2,
             icon:'fa-regular fa-comment',
             color:'#F8D12D',
-            title:'First there\'s an idea',
+            title:'Then we talk about',
             text:'Lorem ipsum dolor sit, conetu adipisc sed be et aliqua pleasure itself.'
         },
         {   
             id:3,
             icon:'fa-solid fa-cloud',
             color:'#80465F',
-            title:'First there\'s an idea',
+            title:'And we think about',
             text:'Lorem ipsum dolor sit, conetu adipisc sed be et aliqua pleasure itself.'
         },
         {   
             id:4,
             icon:'fa-solid fa-pencil',
             color:'#EB6950',
-            title:'First there\'s an idea',
+            title:'So we draw along',
             text:'Lorem ipsum dolor sit, conetu adipisc sed be et aliqua pleasure itself.'
         },
     ]
@@ -65,6 +66,14 @@ export default {
         right: 8%;
         bottom: 0;
         left: 8%;
+    }
+    .line{
+        width: 800px;
+        height: 90px;
+        z-index: 0;
+        position: absolute;
+        top:15px;
+        left: 70px;
     }
 
     h2 {

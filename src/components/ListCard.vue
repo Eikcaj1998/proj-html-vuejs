@@ -27,14 +27,17 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-    .square {
+    .col{
+        z-index: 1;
+        .square {
         width: 140px;
-        aspect-ratio: 1 / 1;
+        height: 140px;
         background-color: rgb(250, 247, 241);
         border-radius: 50%;
         position: relative;
         z-index: 1;
         font-size: 2rem;
+        box-shadow: 3px 3px 3px #dedede;
     }
 
     .my-card-text {
@@ -46,5 +49,6 @@ export default {
     .my-card-title {
         position: relative;
         z-index: 2;
+    }
     }
 </style>
