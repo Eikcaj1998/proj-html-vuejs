@@ -12,10 +12,10 @@
                             </div>
                         <div class="card" style="width: 18rem;">
                             <img class="img-fluid" :src="blog.src" alt="">
-                            <div class="card-body">
+                            <div class="card-body my-2">
                                 {{ blog.text }}
                                 <div class="post-author">
-                                <h6>By {{blog.author}}</h6>
+                                <h6 class="mt-2">By {{blog.author}}</h6>
                                 </div>
                             </div>
                         </div>
@@ -116,6 +116,7 @@ export default {
 
     .card-body{
         padding:0;
+        font-weight: bold;
     }
     .img-fluid{
         transition: transform 400ms ease-in-out;

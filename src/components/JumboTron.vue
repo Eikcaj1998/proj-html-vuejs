@@ -26,6 +26,7 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/style.scss';
     .row{
+        margin-top: 60px;
         padding-top: 40px;
     }
     .btn{

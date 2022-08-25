@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <nav class="navbar py2 px-3">
+        <nav class="navbar py-2">
         <div class="container-fluid">
         <a class="go-top" @click="scrollToTop()">
         <FontAwesomeIcon icon="fa-solid fa-arrow-up" class="arrow"/>
@@ -19,7 +18,7 @@
             </ul>
         </div>
         </nav>
-    </div>
+
 </template>
 
 <script>
@@ -47,6 +46,15 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/style.scss';
+.navbar{
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 3;
+    height: 60px;
+    background-color: $quintenary;
+    width: 100%;
+}
     .go-top {
         position: fixed;
         bottom: 3vh;
@@ -69,5 +77,13 @@ export default {
         }
 ul{
     list-style-type: none;
+    a:hover {
+        width: 100%;
+        padding-bottom: 3px;
+        border-bottom: solid 5px $secondary;
+        transform-origin: left;
+        transition: transform 0.7s ease-in-out;
+        display: inline;
+    }
 }
 </style>
